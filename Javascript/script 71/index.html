@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <style>
+        .bgred{
+            background-color: rebeccapurple;
+        }
+    </style>
+</head>
+<body>
+    <div class="container bgred ">
+   <div class="box" style="display: flex;">
+    <p>Hey I am a paragraph Tag</p>
+   </div>
+</div>
+
+<script>
+//     let div = document.createElement("div");
+// div.innerHTML = "I have been inserted  <b>by Gautam</b> "
+// div.setAttribute("class", "created");
+// document.querySelector(".container").append;
+
+
+let cont = document.querySelector(".container");
+cont.insertAdjacentHTML("beforeend", "<h2>Hey how are you ?</h2>")
+</script>
+</body>
+</html>
